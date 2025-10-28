@@ -159,8 +159,41 @@ h2 {
 
 h3 {
   margin-left: 123px;
+  margin-bottom: 48px;
   font-size: 50px;
   color: #FFFFFF;
   line-height: 72px;
   letter-spacing: -0.03em;
+}
+
+.what_competencies {
+  margin-left: 123px;
+  margin-bottom: 15px;
+  width: 719px;
+  font-size: 35px;
+  line-height: 46px;
+  color: #FFCBDB;
+  letter-spacing: -0.03em;
+}
+
+.what_competencies::before {
+  content: '';
+  display: block;
+  margin-bottom: 12px;
+  width: 45px;
+  height: 44px;
+  background-image: url('../resources/html.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.description_competencies {
+  margin-bottom: 60px;
+  width: 778px;
+  font-size: 22px;
+  letter-spacing: -0.03em;
+}
+
+.description_competencies:last-child {
+  margin-bottom: 150px;
 }
