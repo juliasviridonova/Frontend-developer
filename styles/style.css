@@ -212,3 +212,30 @@ h3 {
 .description_competencies:last-child {
   margin-bottom: 150px;
 }
+
+.block_services {
+  margin-left: 125px;
+}
+
+h4 {
+  margin-bottom: 74px;
+  height: 92px;
+  width: 403px;
+  font-size: 35px;
+  color: #FFFFFF;
+  letter-spacing: -0.03em;
+}
+
+.text_background_black {
+  width: 1150px;
+  height: 283px;
+  background-image: url('../resources/background\ black.png');
+  background-repeat: no-repeat;
+}
+
+.services {
+  margin-left: 40px;
+  margin-bottom: 15px;
+  padding-top: 40px;
+  
+}
