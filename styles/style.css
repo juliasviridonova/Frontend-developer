@@ -278,10 +278,76 @@ h4 {
 }
 
 .block_contacts {
+  margin-bottom: 150px;
   height: 717px;
   border-radius: 30px;
   background-color: #191C19;
 }
-.boy {
-  margin-left: 673px;
+
+.row {
+  display: flex;
+  position: relative;
+}
+
+
+h5 {
+  margin: 320px auto 28px 125px;
+  width: 201px;
+  height: 60px;
+  font-size: 35px;
+  color: #FFFFFF;
+  letter-spacing: -0.03em;
+  line-height: 60px;
+}
+
+.connection {
+  position: absolute;
+  top: 408px;
+  left: 125px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+
+.instagram {
+  position: absolute;
+  top: 408px;
+  left: 125px;
+}
+
+.telegram {
+  position: absolute;
+  top: 488px;
+  left: 125px;
+}
+
+.mail {
+  position: absolute;
+  top: 568px;
+  left: 125px;
+}
+
+.white_block {
+  height: 226px;
+  border-radius: 30px 30px 0 0;
+  background-color: #FFFFFF;
+}
+
+.portfolio {
+  margin-left: 125px;
+  margin-bottom: 66px;
+  padding-top: 76px;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+.rights {
+  margin-left: 125px;
+   font-size: 20px;
+  line-height: 37px;
+  letter-spacing: -0.03em;
+  opacity: 50%;
 }
