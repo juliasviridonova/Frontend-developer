@@ -154,11 +154,15 @@ h2 {
 .view_all_projects {
   margin-left: 123px;
   margin-bottom: 150px;
+  text-align: center;
   width: 582px;
   height: 153px;
   background-color: #FFCBDB;
   font-size: 30px;
+  border-radius: 10px;
+  letter-spacing: -0.03em;
 }
+
 .view_all_projects:hover {
   background-color: #000;
   color: #FFCBDB;
