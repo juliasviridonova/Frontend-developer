@@ -1,0 +1,86 @@
+.fresh_projects {
+  color: #FFFFFF;
+}
+
+h2 {
+  margin-left: 120px;
+  margin-bottom: 40px;
+  padding-top: 150px;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  
+}
+
+.projects {
+  display: block; 
+  text-decoration: none; 
+  color: inherit; 
+  margin-left: 125px;
+
+  background-size: cover;
+  width: 1150px;
+  height: 550px;
+}
+
+.Metrica {
+  background-image: url('../resources/метрика.png');
+}
+
+.presentation {
+  background-image: url('../resources/presentation.png');
+}
+
+.order {
+  background-image: url('../resources/order.png');
+}
+.projects-name_projects-wrapper {
+  padding-top: 50px;
+}
+
+.projects-name_projects {
+  display: inline-block;
+  margin-left: 50px;
+  margin-bottom: 313px;
+  padding: 10px 20px 10px 20px;    
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  background-color: #FFCBDB;
+  border-radius: 100px;
+
+}
+
+.projects-title {
+  margin-bottom: 5px;
+  margin-left: 50px;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+}
+
+.projects-description {
+  margin-left: 50px;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+}
+
+.view_all_projects {
+  margin-top: 80px;
+  margin-left: 123px;
+  margin-bottom: 150px;
+  text-align: center;
+  width: 582px;
+  height: 153px;
+  background-color: #FFCBDB;
+  font-size: 30px;
+  border-radius: 10px;
+  letter-spacing: -0.03em;
+}
+
+.view_all_projects:hover {
+  background-color: #000;
+  color: #FFCBDB;
+  border: 1px solid #FFCBDB;
+}

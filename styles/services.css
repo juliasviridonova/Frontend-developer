@@ -1,0 +1,53 @@
+.block_services {
+  margin-left: 125px;
+}
+
+h4 {
+  margin-bottom: 80px;
+  height: 92px;
+  width: 403px;
+  font-size: 35px;
+  color: #FFFFFF;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+}
+
+.text_background_black {
+  margin-bottom: 40px;
+  width: 1150px;
+  height: 283px;
+  background-image: url('../resources/background\ black.png');
+  background-repeat: no-repeat;
+  letter-spacing: -0.03em;
+}
+
+.mobiles {
+  margin-bottom: 150px;
+}
+
+.services {
+  margin-left: 40px;
+  margin-bottom: 15px;
+  padding-top: 40px;
+  
+}
+
+.service_title {
+  margin-left: 40px;
+  margin-bottom: 15px;
+  padding-top: 40px;
+  width: 1048px;
+  font-size: 55px;
+  line-height: 72px;
+  color: #FFCBDB;
+}
+
+.explanation {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  width: 749px;
+  height: 116px;
+  font-size: 22px;
+  line-height: 1.3;
+  color: #FFFFFF;
+}

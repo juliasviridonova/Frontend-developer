@@ -1,0 +1,73 @@
+h3 {
+  margin-left: 123px;
+  margin-bottom: 48px;
+  font-size: 50px;
+  color: #FFFFFF;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+
+.what_competencies {
+  margin-left: 123px;
+  margin-bottom: 15px;
+  width: 719px;
+  font-size: 35px;
+  line-height: 46px;
+  color: #FFCBDB;
+  letter-spacing: -0.03em;
+}
+
+.what_competencies::before {
+  content: '';
+  display: block;
+  width: 45px;
+  height: 44px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.html::before {
+  margin-bottom: 12px;
+  background-image: url('../resources/html.png');
+}
+
+.javascript::before {
+  margin-bottom: 16px;
+  background-image: url('../resources/JS.png');
+}
+
+.frameworks::before {
+  margin-bottom: 16px;
+  background-image: url('../resources/phone.png');
+}
+
+.mobile::before {
+  margin-bottom: 16px;
+  background-image: url('../resources/neutron.png');
+}
+
+.description_competencies {
+  margin-bottom: 60px;
+  margin-left: 123px;
+  width: 778px;
+  font-size: 22px;
+  color: #FFFFFF;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+}
+
+.base {
+  height: 116px;
+}
+
+.language {
+  height: 145px;
+}
+
+.front {
+  height: 145px;
+}
+.description_competencies:last-child {
+  margin-bottom: 150px;
+  height: 145px;
+}

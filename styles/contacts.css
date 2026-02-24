@@ -1,0 +1,50 @@
+.block_contacts {
+  border-radius: 30px;
+  background-color: #191C19;
+}
+
+.row {
+  display: flex;
+  position: relative;
+}
+
+
+h5 {
+  margin: 220px auto 28px 125px;
+  width: 201px;
+  height: 60px;
+  font-size: 35px;
+  color: #FFFFFF;
+  letter-spacing: -0.03em;
+  line-height: 60px;
+}
+
+.connection {
+  position: absolute;
+  top: 408px;
+  left: 125px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.tel {
+  position: absolute;
+  top: 408px;
+  left: 125px;
+}
+
+.telegram {
+  position: absolute;
+  top: 488px;
+  left: 125px;
+}
+
+.mail {
+  position: absolute;
+  top: 568px;
+  left: 125px;
+}
