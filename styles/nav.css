@@ -8,7 +8,7 @@
   margin-bottom: 252px;
 }
 
-.logo {
+.nav_logo {
   margin-left: 123px;
   margin-right: 408px;
   margin-bottom: 0;
@@ -74,7 +74,7 @@ h1 {
   color: #FFCBDB;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1199px) {
   .nav_link {
     display: none;
   }

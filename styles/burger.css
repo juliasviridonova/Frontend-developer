@@ -1,0 +1,104 @@
+.burger-btn {
+    display: none;
+}
+
+.burger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3 ease;
+    z-index: 1000;
+}
+
+.burger_open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.burger_cross {
+    margin-bottom: 6px;
+    padding-left: 190px;
+}
+
+
+
+.burger-nav {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.burger_logo {
+    margin-bottom: 30px;
+    width: 156px;
+    height: 26px;
+    background-color: aqua;
+}
+
+.burger-nav__link {
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.burger_text {
+    margin-top: 70px;
+    margin-bottom: 3px;
+    opacity: 50%;
+}
+
+.burger_contacts {
+    font-size: 20px;
+    text-decoration: none;
+    color: #121212;
+}
+
+@media (max-width: 1199px) {
+    .nav {
+        display: none;
+    }
+
+    .module {
+        position: relative;
+    } 
+
+    .burger-btn {
+        position: absolute;
+        top: 10px;
+        right: 1px;
+        z-index: 100;
+        display: block;
+        width: 36px;
+        height: 24px;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+    }
+
+    .burger__content {
+        padding: 30px;
+        width: 274px;
+        height: 100%;
+        background-color: white;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .burger-btn {
+        right: 12px;
+    }
+        
+   
+ 
+
+}
