@@ -67,7 +67,58 @@ h3 {
 .front {
   height: 145px;
 }
-.description_competencies:last-child {
+
+.last {
   margin-bottom: 150px;
   height: 145px;
+}
+
+@media (max-width: 1199px) {
+  h3 {
+    margin-left: 13px;
+    margin-bottom: 60px;
+    font-size: 45px;
+    line-height: 59px;
+
+  }
+
+  .my_competencies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .what_competencies {
+    margin-left: 13px;
+    margin-bottom: 13px;
+    width: 212px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .what_competencies::before {
+    width: 36px;
+    height: 36px;
+  }
+
+  .description_competencies {
+    margin-bottom: 65px;
+    margin-left: 14px;
+    width: 433px;
+    height: 161px;
+    font-size: 18px;
+  }
+
+  .language {
+    width: 461px;
+  }
+  .frameworks {
+    margin-bottom: 46px;
+    width: 342px;
+
+  }
+
+  .mobile {
+    margin-bottom: 16px;
+    width: 459px;
+  }
 }

@@ -24,14 +24,14 @@
 
 .burger_cross {
     margin-left: 190px;
-    width: 63px;
-    height: 63px;
+    width: 34px;
+    height: 34px;
     cursor: pointer;
 }
 
 .cross_img {
-    width: 63px;
-    height: 63px;
+    width: 34px;
+    height: 34px;
 }
 
 
@@ -102,8 +102,12 @@
         width: 274px;
         height: 100%;
         background-color: white;
-       
         transition: transform 0.3s ease;
+    }
+
+    .burger_cross {
+        position: absolute;
+        right: 21px;
     }
 }
 
@@ -112,8 +116,5 @@
     .burger-btn {
         right: 12px;
     }
-        
-   
- 
-
+     
 }

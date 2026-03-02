@@ -95,7 +95,14 @@ h1 {
 
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
+  .explanation_me {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  
   .explanation_me {
     font-size: 15px;
     width: 310px;
@@ -105,4 +112,5 @@ h1 {
     width: 353px;
     font-size: 40px;
   }
+
 }

@@ -16,8 +16,7 @@ h2 {
   display: block; 
   text-decoration: none; 
   color: inherit; 
-  margin-left: 125px;
-
+  margin: 0 auto;
   background-size: cover;
   width: 1150px;
   height: 550px;
@@ -34,6 +33,7 @@ h2 {
 .order {
   background-image: url('../resources/order.png');
 }
+
 .projects-name_projects-wrapper {
   padding-top: 50px;
 }
@@ -49,7 +49,6 @@ h2 {
   letter-spacing: -0.03em;
   background-color: #FFCBDB;
   border-radius: 100px;
-
 }
 
 .projects-title {
@@ -84,4 +83,134 @@ h2 {
   background-color: #000;
   color: #FFCBDB;
   border: 1px solid #FFCBDB;
+}
+
+@media (max-width: 1199px) {
+
+  h2 {
+    margin-left: 10px;
+    margin-bottom: 53px;
+    font-size: 45px;
+    line-height: 59px;
+  }
+
+  .projects {
+    margin: 0 auto;
+    width: 930px;
+    height: 445px;
+  }
+
+  .Metrica {
+    background-image: url('../resources/metrika_tabl.png');
+  }
+
+ .presentation {
+    background-image: url('../resources/presentation_tabl.png');
+  }
+
+ .order {
+    background-image: url('../resources/order_tabl.png');
+  }
+
+  .projects-name_projects-wrapper {
+    padding-top: 40px;
+  }
+
+  .projects-name_projects {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 255px;
+    padding: 8px 16px 8px 16px;    
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 80px;
+  }
+
+  .projects-title {
+    margin-left: 40px;
+    font-size: 28px;
+    line-height: 36px;
+
+  }
+
+ .projects-description {
+    margin-left: 40px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .view_all_projects {
+    margin-top: 64px;
+    margin-left: 15px;
+    width: 460px;
+    height: 124px;
+    background-color: #FFCBDB;
+    font-size: 24px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    margin-left: 11px;
+    margin-bottom: 34px;
+    padding-top: 100px;
+    font-size: 30px;
+    line-height: 78px;
+  }
+
+ .projects {
+    width: 350px;
+    height: 445px;
+  }
+
+ .Metrica {
+    background-image: url('../resources/metrika_mobile.png');
+  }
+
+ .presentation {
+    background-image: url('../resources/presentation_mobile.png');
+  }
+
+ .order {
+    background-image: url('../resources/order_mobile.png');
+  }
+
+  .projects-name_projects-wrapper {
+    padding-top: 30px;
+  }
+
+  .projects-name_projects {
+
+    margin-left: 35px;
+    margin-bottom: 273px;
+    padding: 6px 19px 6px 19px;    
+    font-size: 13px;
+    line-height: 18px;
+    border-radius: 64px;
+  }
+
+  .projects-title {
+    margin-left: 35px;
+  }
+
+  .projects-description {
+    margin-left: 35px;
+    font-size: 16px;
+  }
+
+  .view_all_projects {
+    margin-top: 60px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    text-align: center;
+    width: 582px;
+    height: 153px;
+    background-color: #FFCBDB;
+    font-size: 30px;
+    border-radius: 10px;
+    letter-spacing: -0.03em;
+  }
+
+
 }

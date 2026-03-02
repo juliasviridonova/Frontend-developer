@@ -15,7 +15,6 @@ html {
 
 body {
   margin: 0 auto;
-  width: 100%;
   height: 100%;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
@@ -31,12 +30,17 @@ body {
 
 @media (max-width: 1199px) {
   .module {
-    width: 100%;
+    width: 960px;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   .module {
-    width: 100%;
+    width: 375px;
+    background-color: red;
   }
 }
+
+
+
+
