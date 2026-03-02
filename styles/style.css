@@ -30,7 +30,9 @@ body {
 
 @media (max-width: 1199px) {
   .module {
+    margin: 0 auto;
     width: 960px;
+
   }
 }
 

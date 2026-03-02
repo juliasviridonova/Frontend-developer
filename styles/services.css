@@ -51,3 +51,17 @@ h4 {
   line-height: 1.3;
   color: #FFFFFF;
 }
+
+@media (max-width: 1199px) {
+
+  .block_services {
+    margin-left: 15px;
+  }
+
+  h4 {
+    margin-bottom: 60px;
+    height: 74px;
+    width: 326px;
+    font-size: 28px;
+  }
+}
