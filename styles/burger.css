@@ -24,14 +24,14 @@
 
 .burger_cross {
     margin-left: 190px;
-    width: 34px;
-    height: 34px;
+    width: 63px;
+    height: 63px;
     cursor: pointer;
 }
 
 .cross_img {
-    width: 34px;
-    height: 34px;
+    width: 63px;
+    height: 63px;
 }
 
 
@@ -90,8 +90,8 @@
         right: 1px;
         z-index: 100;
         display: block;
-        width: 36px;
-        height: 24px;
+        width: 63px;
+        height: 63px;
         cursor: pointer;
         padding: 0;
         margin: 0;

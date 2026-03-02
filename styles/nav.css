@@ -78,4 +78,31 @@ h1 {
   .nav_link {
     display: none;
   }
+
+  .nav_logo {
+    margin-left: 13px;
+  }
+
+  .explanation_me {
+    margin-left: 15px;
+  }
+
+ h1 {
+    margin-left: 10px;
+    width: 727px;
+    font-size: 60px;
+  }
+
+}
+
+@media (max-width: 1199px) {
+  .explanation_me {
+    font-size: 15px;
+    width: 310px;
+  }
+
+  h1 {
+    width: 353px;
+    font-size: 40px;
+  }
 }
