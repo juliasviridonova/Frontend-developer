@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend-разработчик</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
@@ -118,22 +119,34 @@
         <div id="services">
             <div class="block_services">
                 <h4>Помогаю реализовать широкий спектр задач</h4>
-                <img class="take" src="./resources/take full.png" alt="take full">
-                <div class="text_background_black key">
-                    <p class="service_title">Разработка сайта под ключ</p>
-                    <p class="explanation">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач<br>
-                    Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит целевое действие</p>
-                </div>
-                <img src="./resources/violet.png" alt="violet" class="violet">
-                <div class="text_background_black layout">
-                    <p class="service_title">Верстка сайтов</p>
-                    <p class="explanation">Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта</p>
-                </div>
-                <img src="./resources/girl.png" alt="girl" class="girl">
-                <div class="text_background_black mobiles">
-                    <p class="service_title">Разработка мобильного интерфейса</p>
-                    <p class="explanation">Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.</p>
-                </div>
+                
+                <picture>
+                     <source 
+                        media="(max-width: 500px)" 
+                        src="resources/take full_mobile.png"
+                        />
+                     <source 
+                        media="(min-width: 768px) and (max-width: 1199px)" 
+                        src="./resources/violet_mobile.png"
+                        />
+                        <img class="take" src="./resources/take full.png" alt="take full">
+                    <div class="text_background_black key">
+                        <p class="service_title">Разработка сайта под ключ</p>
+                        <p class="explanation">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач<br>
+                        Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит целевое действие</p>
+                    </div>
+                    <img src="./resources/violet.png" alt="violet" class="violet">
+                    <div class="text_background_black layout">
+                        <p class="service_title">Верстка сайтов</p>
+                        <p class="explanation">Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта</p>
+                    </div>
+                    <img src="./resources/girl.png" alt="girl" class="girl">
+                    <div class="text_background_black mobiles">
+                        <p class="service_title">Разработка мобильного интерфейса</p>
+                        <p class="explanation">Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.</p>
+                    </div>
+                </picture>
+                
             </div>
         </div>    
         <div id="contacts">
