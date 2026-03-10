@@ -39,7 +39,7 @@ body {
 @media (max-width: 767px) {
   .module {
     width: 375px;
-    background-color: red;
+    
   }
 }
 
