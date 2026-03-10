@@ -66,12 +66,13 @@
 
 .burger_text {
     margin-top: 70px;
-    margin-bottom: 3px;
+    margin-bottom: 20px;
     opacity: 50%;
 }
 
 .burger_contacts {
     text-decoration: none;
+    margin-bottom: 20px;
     color: #121212;
 }
 

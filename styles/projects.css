@@ -202,15 +202,11 @@ h2 {
 
   .view_all_projects {
     margin-top: 60px;
-    margin: 0 auto;
-    margin-bottom: 150px;
-    text-align: center;
-    width: 582px;
-    height: 153px;
-    background-color: #FFCBDB;
-    font-size: 30px;
-    border-radius: 10px;
-    letter-spacing: -0.03em;
+    margin-bottom: 100px;
+    width: 350px;
+    height: 80px;
+    font-size: 18px;
+    border-radius: 8px;
   }
 
 
