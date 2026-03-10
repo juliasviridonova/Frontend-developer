@@ -14,30 +14,24 @@ h4 {
 }
 
 .text_background_black {
+  padding-top: 40px;
   margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
   width: 1150px;
   height: 283px;
-  background-image: url('../resources/background\ black.png');
-  background-repeat: no-repeat;
+  background-color: #191C19;
   letter-spacing: -0.03em;
+  border-radius: 30px;
 }
 
 .mobiles {
   margin-bottom: 150px;
 }
 
-.services {
-  margin-left: 40px;
-  margin-bottom: 15px;
-  padding-top: 40px;
-  
-}
-
 .service_title {
   margin-left: 40px;
-  margin-bottom: 15px;
-  padding-top: 40px;
-  width: 1048px;
+  width: 470px;
   font-size: 55px;
   line-height: 72px;
   color: #FFCBDB;
@@ -45,9 +39,8 @@ h4 {
 
 .explanation {
   margin-left: 40px;
-  margin-bottom: 40px;
-  width: 749px;
-  height: 116px;
+  width: 525px;
+  height: 174px;
   font-size: 22px;
   line-height: 1.3;
   color: #FFFFFF;
@@ -65,4 +58,31 @@ h4 {
     width: 326px;
     font-size: 28px;
   }
+
+  .text_background_black {
+    margin-bottom: 32px;
+    padding-top: 32px;
+    width: 930px;
+    height: 229px;
+  }
+
+  .mobiles {
+    margin-bottom: 110px;
+  }
+
+  .service_title {
+    margin-left: 32px;
+    width: 380px;
+    font-size: 45px;
+    line-height: 52px;
+  }
+
+  .explanation {
+    margin-left: 32px;
+    width: 425px;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #FFFFFF;
+  }
+
 }

@@ -10,7 +10,7 @@ h3 {
 .my_competencies {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 47px;
+  justify-content: space-between;
 }
 
 .competencies_wrap {
@@ -108,7 +108,9 @@ h3 {
   }
 
   .my_competencies {
+    justify-content: flex-start;
     column-gap: 37px;
+    
   }
 
   .what_competencies {
@@ -178,16 +180,20 @@ h3 {
   }
 
   .what_competencies {
-  width: 362px;
-  font-size: 28px;
-  line-height: 36px;
+    margin-bottom: 15px;
+    width: 362px;
+    font-size: 28px;
+    line-height: 36px;
+  }
 
-}
+  .description_competencies {
+    margin-bottom: 60px;
+    width: 349px;
+    height: auto;
+    font-size: 18px;
+    
+  }
 
-.what_competencies::before {
-  width: 36px;
-  height: 36px;
-}
 
 
 }
