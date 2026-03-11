@@ -86,3 +86,24 @@ h4 {
   }
 
 }
+
+@media (max-width: 767px) {
+  .text_background_black {
+    margin-bottom: 60px;
+    padding-top: 31px;
+    width: 348px;
+    height: 397px;
+  }
+
+  .service_title {
+    margin-left: 21px;
+    width: 294px;
+    font-size: 35px;
+    line-height: 39px;
+  }
+
+  .explanation {
+    margin-left: 21px;
+    width: 347px;
+  }
+}

@@ -10,41 +10,49 @@
 
 
 h5 {
-  margin: 220px auto 28px 125px;
-  width: 201px;
-  height: 60px;
-  font-size: 35px;
-  color: #FFFFFF;
-  letter-spacing: -0.03em;
-  line-height: 60px;
-}
-
-.connection {
-  position: absolute;
-  top: 408px;
-  left: 125px;
+  margin: 100px auto 60px 122px;
+  width: 553px;
+  height: 180px;
   font-size: 60px;
-  line-height: 60px;
-  letter-spacing: -0.03em;
   color: #FFFFFF;
-  text-decoration: none;
+  letter-spacing: -0.03em;
+  line-height: 60px;
 }
 
-
-.tel {
+.contacts_input {
   position: absolute;
-  top: 408px;
+  top: 340px;
   left: 125px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
-.telegram {
-  position: absolute;
-  top: 488px;
-  left: 125px;
+.input {
+  padding-left: 40px;
+  width: 567px;
+  height: 60px;
+  background-color: #3B3D3B;
+  color: #FFFFFF;
+  font-size: 22px;
+  border-radius: 1000px;
+  border: none;
 }
 
-.mail {
-  position: absolute;
-  top: 568px;
-  left: 125px;
+.input::placeholder {
+  color: #FFFFFF;
 }
+
+.contacts_send-btn {
+  position: absolute;
+  top: 565px;
+  left: 145px;
+  width: 450px;
+  height: 70px;
+  font-size: 22px;
+  border-radius: 10px;
+  background-color: #FFCBDB;
+  cursor: pointer;
+}
+
+

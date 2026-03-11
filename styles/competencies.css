@@ -179,6 +179,10 @@ h3 {
     line-height: 59px;
   }
 
+ .right {
+    margin-left: 13px;
+  }
+
   .what_competencies {
     margin-bottom: 15px;
     width: 362px;
