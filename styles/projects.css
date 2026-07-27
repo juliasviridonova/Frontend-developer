@@ -13,36 +13,76 @@ h2 {
 }
 
 .projects {
-  display: block; 
-  text-decoration: none; 
-  color: inherit; 
+  display: block;
+  text-decoration: none;
+  color: inherit;
   margin: 0 auto;
-  background-size: cover;
   width: 1150px;
   height: 550px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
-.Metrica {
-  background-image: url('../resources/метрика.png');
+/* Картинка и градиент — только здесь */
+.projects-image {
+  position: absolute;
+  inset: 0; /* то же самое, что top/right/bottom/left: 0 */
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
 }
 
-.presentation {
-  background-image: url('../resources/presentation.png');
+.Metrica .projects-image {
+  background-image:  linear-gradient(
+      to bottom,
+      transparent 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ), 
+    url('../resources/метрика.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* если нужна полупрозрачность */
 }
 
-.order {
-  background-image: url('../resources/order.png');
+.presentation .projects-image {
+  background-image:
+    linear-gradient(
+      to bottom,
+      transparent 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url('../resources/expenses.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; 
 }
 
-.projects-name_projects-wrapper {
-  padding-top: 50px;
+.order .projects-image {
+  background-image:  linear-gradient(
+      to bottom,
+      transparent 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ), url('../resources/order.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
 }
+
+.projects-content {
+  position: relative;
+  z-index: 2; /* текст будет выше картинки и градиента */
+  padding: 50px 50px ; /* вместо жёстких margin-bottom */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
 
 .projects-name_projects {
   display: inline-block;
-  margin-left: 50px;
-  margin-bottom: 313px;
-  padding: 10px 20px 10px 20px;    
+  padding: 10px 20px;    
   font-size: 20px;
   line-height: 27px;
   color: #000;
@@ -52,15 +92,14 @@ h2 {
 }
 
 .projects-title {
-  margin-bottom: 5px;
-  margin-left: 50px;
+  margin-top: 313px; /* отступ от бейджа */
+  margin-bottom: 8px;
   font-size: 35px;
   line-height: 46px;
   letter-spacing: -0.03em;
 }
 
 .projects-description {
-  margin-left: 50px;
   font-size: 30px;
   line-height: 39px;
   letter-spacing: -0.03em;
@@ -68,15 +107,16 @@ h2 {
 
 .view_all_projects {
   margin-top: 80px;
-  margin-left: 123px;
-  margin-bottom: 150px;
-  text-align: center;
-  width: 582px;
-  height: 153px;
+  margin-left: 50px; /* лучше не ставить огромные margin-left в пикселях */
+  width: fit-content;
+  max-width: 100%;
+  padding: 24px 48px;
+  height: auto;
   background-color: #FFCBDB;
   font-size: 30px;
   border-radius: 10px;
   letter-spacing: -0.03em;
+  cursor: pointer;
 }
 
 .view_all_projects:hover {
@@ -98,18 +138,6 @@ h2 {
     margin: 0 auto;
     width: 930px;
     height: 445px;
-  }
-
-  .Metrica {
-    background-image: url('../resources/metrika_tabl.png');
-  }
-
- .presentation {
-    background-image: url('../resources/presentation_tabl.png');
-  }
-
- .order {
-    background-image: url('../resources/order_tabl.png');
   }
 
   .projects-name_projects-wrapper {
@@ -165,16 +193,29 @@ h2 {
     height: 445px;
   }
 
- .Metrica {
+ .Metrica .projects-image {
     background-image: url('../resources/metrika_mobile.png');
+    background-size: cover;
+    background-position: center;
+    
   }
 
- .presentation {
-    background-image: url('../resources/presentation_mobile.png');
+  .presentation .projects-image {
+    background-image:
+      linear-gradient(
+        to bottom,
+        transparent 60%,
+        rgba(0, 0, 0, 0.8) 100%
+      ),
+      url('../resources/expenses_mobile.png');
+    background-size: cover;
+    background-position: center;
   }
 
- .order {
+  .order .projects-image {
     background-image: url('../resources/order_mobile.png');
+    background-size: cover;
+    background-position: center;
   }
 
   .projects-name_projects-wrapper {
