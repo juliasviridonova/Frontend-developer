@@ -1,77 +1,127 @@
-.nav_section {
-  padding-top: 27px;
-  margin-bottom: 259px;
-}
-
-.box {
-  display: flex;
-  margin-bottom: 252px;
-}
-
-.nav_logo {
-  margin-left: 123px;
-  margin-right: 408px;
-  margin-bottom: 0;
-  padding-top: 27px;
-  width: 253px;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 39px;
-  letter-spacing: -0.11em;
-  color: #FFCBDB;
-  background: #000;     
-  padding: 9px 12px 7px 9px;      
-  border-radius: 100px;
-}
-
-.nav_link {
-  margin-right: 50px;
-  margin-top: 10px;
-  line-height: 23px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  letter-spacing: -0.03em;
-}
-
-.nav_link:last-child {
-  margin-right: 0;
-}
-
-.nav_link:first-of-type:hover {
-  color: #FFCBDB;
-}
-
 .hello {
   height: 765px;
   background-image: url('../resources/me.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+/* Затемнение фона */
+.hello::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.hello > * {
+  position: relative;
+  z-index: 2;
+}
+
+.nav_section {
+  padding-top: 27px;
+  margin-bottom: 228px; /* Убрали огромный отступ */
+  padding-bottom: 24px; /* Небольшой отступ до контента */
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0; /* Убрали огромный отступ */
+  gap: 24px;
+}
+
+.nav_logo {
+  margin-left: 123px;
+  padding: 9px 12px 7px 9px;
+  width: auto; /* Не фиксируем ширину */
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #FFCBDB;
+  background: #000;
+  border-radius: 100px;
+}
+
+.nav_links {
+  display: flex;
+  gap: 32px;
+  margin: 0;
+}
+
+.nav_link {
+  margin-right: 50px;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+}
+
+.nav_link:hover {
+  color: #FFCBDB;
 }
 
 .explanation_me {
-  margin-left: 125px;
-  margin-bottom: 29px;
-  padding-left: 5px;
-  width: 430px;
-  font-size: 20px;
-  letter-spacing: -0.03em;
-  line-height: 1.2;
-  background-color: #FFCBDB;
-  border-radius: 5px;
-  
+  margin-left: 123px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  max-width: 500px;
+  font-size: 18px;
+  line-height: 1.4;
+  color: black;
+  background-color: rgba(255, 203, 219, 0.85);
+  padding: 12px 16px;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
 }
 
-h1 {
-  margin-left: 119px;
-  width: 919px;
-  height: 205px;
-  font-size: 80px;
-  text-shadow: 2px 2px 3px #000;
-  line-height: 0.9;
-  letter-spacing: -0.03em;
-  color: #FFCBDB;
+.hello-title {
+  margin-left: 123px;
+  max-width: 900px;
+}
+
+.hello-name {
+  font-size: 64px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 12px 0;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.hello-role {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 1199px) {
+  .hello-name {
+    font-size: 48px;
+  }
+  .hello-role {
+    font-size: 24px;
+  }
+  .explanation_me {
+    margin-left: 24px;
+    font-size: 16px;
+  }
+  .hello-title {
+    margin-left: 24px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -95,22 +145,29 @@ h1 {
 
 }
 
-@media (max-width: 767px) {
-  .explanation_me {
-    font-size: 15px;
-  }
-}
 
 @media (max-width: 767px) {
   
-  .explanation_me {
-    font-size: 15px;
-    width: 310px;
+   .nav_logo {
+    font-size: 32px;
   }
 
-  h1 {
-    width: 353px;
+ .hello-name {
     font-size: 40px;
+  }
+
+  .hello-role {
+    font-size: 25px;
+  }
+
+  .explanation_me {
+    margin-left: 16px;
+    max-width: 90%;
+    font-size: 15px;
+  }
+
+  .hello-title {
+    margin-left: 16px;
   }
 
 }

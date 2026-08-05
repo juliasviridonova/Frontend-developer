@@ -79,32 +79,6 @@ h2 {
 }
 
 
-
-.projects-name_projects {
-  display: inline-block;
-  padding: 10px 20px;    
-  font-size: 20px;
-  line-height: 27px;
-  color: #000;
-  letter-spacing: -0.03em;
-  background-color: #FFCBDB;
-  border-radius: 100px;
-}
-
-.projects-title {
-  margin-top: 313px; /* отступ от бейджа */
-  margin-bottom: 8px;
-  font-size: 35px;
-  line-height: 46px;
-  letter-spacing: -0.03em;
-}
-
-.projects-description {
-  font-size: 30px;
-  line-height: 39px;
-  letter-spacing: -0.03em;
-}
-
 .view_all_projects {
   margin-top: 80px;
   margin-left: 50px; /* лучше не ставить огромные margin-left в пикселях */
@@ -140,32 +114,6 @@ h2 {
     height: 445px;
   }
 
-  .projects-name_projects-wrapper {
-    padding-top: 40px;
-  }
-
-  .projects-name_projects {
-    display: inline-block;
-    margin-left: 40px;
-    margin-bottom: 255px;
-    padding: 8px 16px 8px 16px;    
-    font-size: 16px;
-    line-height: 22px;
-    border-radius: 80px;
-  }
-
-  .projects-title {
-    margin-left: 40px;
-    font-size: 28px;
-    line-height: 36px;
-
-  }
-
- .projects-description {
-    margin-left: 40px;
-    font-size: 24px;
-    line-height: 31px;
-  }
 
   .view_all_projects {
     margin-top: 64px;
@@ -230,28 +178,6 @@ h2 {
     background-position: center;
   }
 
-  .projects-name_projects-wrapper {
-    padding-top: 30px;
-  }
-
-  .projects-name_projects {
-
-    margin-left: 35px;
-    margin-bottom: 273px;
-    padding: 6px 19px 6px 19px;    
-    font-size: 13px;
-    line-height: 18px;
-    border-radius: 64px;
-  }
-
-  .projects-title {
-    margin-left: 35px;
-  }
-
-  .projects-description {
-    margin-left: 35px;
-    font-size: 16px;
-  }
 
   .view_all_projects {
     margin-top: 60px;
