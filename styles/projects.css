@@ -42,7 +42,7 @@ h2 {
     url('../resources/метрика.png');
   background-size: cover;
   background-position: center;
-  opacity: 0.5; /* если нужна полупрозрачность */
+ 
 }
 
 .presentation .projects-image {
@@ -55,7 +55,7 @@ h2 {
     url('../resources/expenses.png');
   background-size: cover;
   background-position: center;
-  opacity: 0.5; 
+
 }
 
 .order .projects-image {
@@ -66,7 +66,7 @@ h2 {
     ), url('../resources/order.png');
   background-size: cover;
   background-position: center;
-  opacity: 0.5;
+
 }
 
 .projects-content {
@@ -194,7 +194,13 @@ h2 {
   }
 
  .Metrica .projects-image {
-    background-image: url('../resources/metrika_mobile.png');
+    background-image: 
+    linear-gradient(
+        to bottom,
+        transparent 60%,
+        rgba(0, 0, 0, 0.8) 100%
+      ),
+    url('../resources/metrika_mobile.png');
     background-size: cover;
     background-position: center;
     
@@ -213,7 +219,13 @@ h2 {
   }
 
   .order .projects-image {
-    background-image: url('../resources/order_mobile.png');
+    background-image: 
+    linear-gradient(
+        to bottom,
+        transparent 60%,
+        rgba(0, 0, 0, 0.8) 100%
+      ),
+      url('../resources/order_mobile.png');
     background-size: cover;
     background-position: center;
   }
